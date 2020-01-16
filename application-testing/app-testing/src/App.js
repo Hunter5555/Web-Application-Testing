@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Dashboard from './components/Dashboard'
-import Display from './components/display.js'
-import styled from 'styled-components'
+import Dashboard from './components/Dashboard';
+import Display from './components/Display.js';
+import styled from 'styled-components';
 
 function App() {
   const [strikes, setStrikes] = useState(0)
