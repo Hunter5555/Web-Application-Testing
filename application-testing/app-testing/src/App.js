@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Dashboard from './components/Dashboard'
-import Display from './components/Display'
+import Display from './components/display.js'
 import styled from 'styled-components'
 
 function App() {
